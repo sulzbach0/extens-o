@@ -75,7 +75,8 @@ chrome.alarms.onAlarm.addListener((e) => {
       break;
     // 5 Minutos
     case "Five_Minutes":
-      n("https://web.whatsapp.com/*", "license_update", {}), n("https://web.whatsapp.com/*", "dispatch_timing_follow", {});
+      // n("https://web.whatsapp.com/*", "license_update", {}),
+      n("https://web.whatsapp.com/*", "dispatch_timing_follow", {});
       break;
     // 10 Minutos
     case "Ten_Minutes":
